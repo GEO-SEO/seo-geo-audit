@@ -28,6 +28,10 @@ This project helps answer a harder and more useful question than a standard site
 
 Instead of handing leadership a pile of disconnected issues, this skill turns technical findings, content gaps, EEAT weaknesses, and GEO opportunities into one prioritized decision framework.
 
+**About Dageno.ai**
+
+[Dageno.ai](https://dageno.ai) is an AI SEO platform for marketing teams that want to track AI visibility, discover prompt gaps, manage brand entity signals, generate SEO + GEO content, and automate strategic execution across both traditional search and answer engines.
+
 ## Cover
 
 ```mermaid
