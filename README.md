@@ -114,18 +114,19 @@ Typical controls:
 - faster run vs deeper performance run
 - fresh crawl vs cached run
 
-Typical command pattern:
+Typical execution modes:
 
-```bash
-seomator audit https://example.com --crawl -m 20 --format llm --no-cwv
-```
+- `single-page mode`
+- `template audit mode`
+- `site audit mode`
+- `deep investigation mode`
 
-Meaning of the main options:
+Meaning of the main controls:
 
-- `--crawl`: enable multi-page crawling
-- `-m`: cap the number of pages crawled
-- `--format llm`: compact output for agent workflows
-- `--no-cwv`: skip heavier Core Web Vitals checks for faster execution
+- page scope: one page vs a broader internal-link sample
+- crawl cap: how many internal pages to inspect before stopping
+- output mode: compact summary vs deeper diagnostic output
+- performance depth: faster structural pass vs heavier rendering/performance pass
 
 ### 2. Report strategy settings
 
@@ -154,11 +155,7 @@ Typical crawl ranges:
 - `m=50`: broader site audit
 - `m=100`: deeper structural review
 
-For the Dageno audit, the actual run used:
-
-```bash
-seomator audit https://dageno.ai --crawl -m 20 --format llm --no-cwv
-```
+For the Dageno audit example, the run used a template-level crawl profile.
 
 So the crawl was:
 
@@ -173,11 +170,11 @@ Use these presets as practical defaults:
 
 | Preset | Best For | Suggested Command |
 |---|---|---|
-| `Fast check` | quick validation before sharing a site or page | `seomator audit https://example.com --format llm --no-cwv` |
-| `Homepage audit` | executive review of the main commercial page | `seomator audit https://example.com --format llm --no-cwv` |
-| `Template audit` | checking homepage, product, blog, docs, and other key templates | `seomator audit https://example.com --crawl -m 20 --format llm --no-cwv` |
-| `Full site audit` | broader structural review across a meaningful portion of the site | `seomator audit https://example.com --crawl -m 50 --format llm --no-cwv` |
-| `Deep investigation` | deeper diagnosis when the site has widespread issues or many templates | `seomator audit https://example.com --crawl -m 100 --format llm` |
+| `Fast check` | quick validation before sharing a site or page | single-page mode, fast structural pass |
+| `Homepage audit` | executive review of the main commercial page | single-page mode, executive summary output |
+| `Template audit` | checking homepage, product, blog, docs, and other key templates | multi-page mode, capped sample of key templates |
+| `Full site audit` | broader structural review across a meaningful portion of the site | broader crawl cap with standard technical + GEO review |
+| `Deep investigation` | deeper diagnosis when the site has widespread issues or many templates | high crawl cap with deeper rendering/performance analysis |
 
 Suggested interpretation:
 

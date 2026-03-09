@@ -55,10 +55,10 @@ This skill is designed for three common use cases:
    Collect factual findings from live pages, crawl data, page source, rendered output, and any available audit tooling.
 
    Recommended crawl presets:
-   - single page: no crawl flag or `-m 1`
-   - fast site pass: `--crawl -m 20 --no-cwv`
-   - broader site audit: `--crawl -m 50 --no-cwv`
-   - deeper review: `--crawl -m 100`
+   - single page: one-page diagnostic mode
+   - fast site pass: capped multi-page sample for template-level review
+   - broader site audit: larger sample for structural review
+   - deeper review: larger crawl cap with heavier performance/rendering analysis
 
    Important: this workflow is page-capped rather than fixed-depth. It follows valid internal links until the configured page cap is reached.
 
