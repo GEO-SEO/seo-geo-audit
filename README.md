@@ -99,6 +99,74 @@ This skill is designed to unify:
 
 Instead of producing separate checklists for developers, SEO teams, and founders, this skill turns them into a single decision system.
 
+## Audit Configuration
+
+This project has two layers of configuration.
+
+### 1. Crawl and audit settings
+
+Typical controls:
+
+- target URL or domain
+- single-page check vs multi-page crawl
+- maximum pages to fetch
+- category filtering
+- faster run vs deeper performance run
+- fresh crawl vs cached run
+
+Typical command pattern:
+
+```bash
+seomator audit https://example.com --crawl -m 20 --format llm --no-cwv
+```
+
+Meaning of the main options:
+
+- `--crawl`: enable multi-page crawling
+- `-m`: cap the number of pages crawled
+- `--format llm`: compact output for agent workflows
+- `--no-cwv`: skip heavier Core Web Vitals checks for faster execution
+
+### 2. Report strategy settings
+
+The reporting layer can also be configured:
+
+- `Boss mode`
+- `Operator mode`
+- `Specialist mode`
+- homepage audit vs site audit vs domain visibility audit
+- whether to include EEAT, GEO, entity, and authority review
+
+## How Deep It Crawls
+
+This workflow is **page-capped**, not **fixed-depth**.
+
+That means it does not use a strict rule like “crawl 2 levels deep” or “crawl 3 levels deep”.
+Instead, it keeps discovering and following valid internal links until one of these happens:
+
+- it reaches the configured page cap
+- it runs out of valid crawlable pages
+
+Typical crawl ranges:
+
+- `m=1`: single-page diagnosis
+- `m=20`: template-level diagnosis
+- `m=50`: broader site audit
+- `m=100`: deeper structural review
+
+For the Scrapeless audit, the actual run used:
+
+```bash
+seomator audit https://www.scrapeless.com --crawl -m 20 --format llm --no-cwv
+```
+
+So the crawl was:
+
+- multi-page
+- capped at `20` pages
+- optimized for a fast technical baseline
+- not using a fixed recursion depth
+
 ## Who This Is For
 
 - Shopify and DTC brands that want stronger AI-search visibility

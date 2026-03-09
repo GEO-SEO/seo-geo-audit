@@ -54,6 +54,14 @@ This skill is designed for three common use cases:
 2. Start with the observable baseline.
    Collect factual findings from live pages, crawl data, page source, rendered output, and any available audit tooling.
 
+   Recommended crawl presets:
+   - single page: no crawl flag or `-m 1`
+   - fast site pass: `--crawl -m 20 --no-cwv`
+   - broader site audit: `--crawl -m 50 --no-cwv`
+   - deeper review: `--crawl -m 100`
+
+   Important: this workflow is page-capped rather than fixed-depth. It follows valid internal links until the configured page cap is reached.
+
 3. Separate evidence from judgment.
    Label each item as:
    - `Observed`
