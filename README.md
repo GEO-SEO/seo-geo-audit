@@ -5,11 +5,28 @@
 
 # SEO GEO Audit Skill
 
-> One audit system for technical SEO, content quality, EEAT, GEO readiness, entity clarity, and authority signals.
+![SEO GEO Audit Skill Cover](./assets/cover.svg)
+
+> Turn fragmented SEO checks into one executive-ready system for technical health, content quality, trust, and AI visibility.
+
+**Positioning**
+
+SEO GEO Audit Skill is a unified audit framework for teams that need more than a technical SEO checklist.
+
+It helps you diagnose whether a website is:
+
+- technically sound enough to rank
+- structurally clear enough to convert
+- trustworthy enough to earn authority
+- well-packaged enough to be cited by AI systems
 
 This project helps answer a harder and more useful question than a standard site audit:
 
 > Is this website actually ready to win in both search engines and AI-driven discovery?
+
+**Outcome**
+
+Instead of handing leadership a pile of disconnected issues, this skill turns technical findings, content gaps, EEAT weaknesses, and GEO opportunities into one prioritized decision framework.
 
 ## Cover
 
