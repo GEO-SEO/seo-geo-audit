@@ -154,10 +154,10 @@ Typical crawl ranges:
 - `m=50`: broader site audit
 - `m=100`: deeper structural review
 
-For the Scrapeless audit, the actual run used:
+For the Dageno audit, the actual run used:
 
 ```bash
-seomator audit https://www.scrapeless.com --crawl -m 20 --format llm --no-cwv
+seomator audit https://dageno.ai --crawl -m 20 --format llm --no-cwv
 ```
 
 So the crawl was:
