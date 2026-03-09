@@ -36,8 +36,8 @@
   </text>
 
   <text x="68" y="352" fill="#24435A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400">
-    <tspan x="68" dy="0">Technical SEO, content quality, EEAT, entity clarity,</tspan>
-    <tspan x="68" dy="42">authority signals, and GEO readiness in one report.</tspan>
+    <tspan x="68" dy="0">Technical SEO, EEAT, GEO readiness,</tspan>
+    <tspan x="68" dy="42">and AI visibility in one report.</tspan>
   </text>
 
   <g filter="url(#shadow)">
@@ -55,19 +55,20 @@
   <rect x="884" y="252" width="292" height="56" rx="18" fill="#F4F7F8" fill-opacity="0.08" stroke="#F4F7F8" stroke-opacity="0.18"/>
   <text x="908" y="274" fill="#A9C8D6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600">AI Visibility</text>
   <text x="908" y="292" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">62.4%</text>
-  <text x="1083" y="292" fill="#F3B562" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Strong</text>
+  <text x="1116" y="292" fill="#F3B562" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Strong</text>
 
   <rect x="884" y="320" width="292" height="56" rx="18" fill="#F4F7F8" fill-opacity="0.08" stroke="#F4F7F8" stroke-opacity="0.18"/>
   <text x="908" y="342" fill="#A9C8D6" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600">Prompt Gaps</text>
   <text x="908" y="360" fill="#F4F7F8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">84.6%</text>
-  <text x="1058" y="360" fill="#B8D8BA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Moderate</text>
+  <text x="1095" y="360" fill="#B8D8BA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Moderate</text>
 
-  <rect x="884" y="392" width="84" height="20" rx="10" fill="#F3B562"/>
-  <rect x="988" y="392" width="84" height="20" rx="10" fill="#7CC6A6"/>
-  <rect x="1092" y="392" width="84" height="20" rx="10" fill="#5A86B7"/>
-  <text x="893" y="430" fill="#DCE6EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500">P0 blockers</text>
-  <text x="996" y="430" fill="#DCE6EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500">P1 growth lifts</text>
-  <text x="1098" y="430" fill="#DCE6EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500">P2 scale work</text>
+  <rect x="884" y="394" width="292" height="12" rx="6" fill="#173042"/>
+  <rect x="884" y="394" width="124" height="12" rx="6" fill="#F3B562"/>
+  <rect x="1018" y="394" width="82" height="12" rx="6" fill="#7CC6A6"/>
+  <rect x="1110" y="394" width="66" height="12" rx="6" fill="#5A86B7"/>
+  <text x="884" y="432" fill="#DCE6EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500">P0 blockers</text>
+  <text x="984" y="432" fill="#DCE6EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500">P1 lifts</text>
+  <text x="1078" y="432" fill="#DCE6EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500">P2 scale</text>
 
   <text x="66" y="560" fill="#0B1F33" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">From fragmented audits to one prioritized roadmap.</text>
 </svg>

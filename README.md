@@ -35,39 +35,40 @@ Instead of handing leadership a pile of disconnected issues, this skill turns te
 ## Cover
 
 ```mermaid
-mindmap
-  root((SEO GEO Audit))
-    Technical SEO
-      Crawlability
-      Indexability
-      Performance
-      Security
-      Schema
-    On-Page SEO
-      Title and Meta
-      Headings
-      Intent Match
-      Internal Links
-      Media
-    GEO Readiness
-      Answer First
-      Extractability
-      Quotability
-      AI Signals
-    Trust and EEAT
-      Author Signals
-      Editorial Clarity
-      Evidence
-      Trust Pages
-    Entity and Authority
-      Brand Identity
-      Disambiguation
-      Third-Party Signals
-      Authority Gaps
-    Unified Output
-      Boss Mode
-      Operator Mode
-      Specialist Mode
+flowchart LR
+    A["SEO GEO Audit"]:::root
+    A --> B["Technical SEO"]:::node
+    A --> C["On-Page SEO"]:::node
+    A --> D["GEO Readiness"]:::node
+    A --> E["Trust & EEAT"]:::node
+    A --> F["Entity & Authority"]:::node
+    A --> G["Unified Output"]:::node
+
+    B --> B1["Crawlability"]:::leaf
+    B --> B2["Performance"]:::leaf
+    B --> B3["Security"]:::leaf
+
+    C --> C1["Title & Meta"]:::leaf
+    C --> C2["Intent Match"]:::leaf
+    C --> C3["Internal Links"]:::leaf
+
+    D --> D1["Answer-First"]:::leaf
+    D --> D2["Extractability"]:::leaf
+    D --> D3["AI Signals"]:::leaf
+
+    E --> E1["Author Signals"]:::leaf
+    E --> E2["Editorial Clarity"]:::leaf
+
+    F --> F1["Brand Identity"]:::leaf
+    F --> F2["Third-Party Signals"]:::leaf
+
+    G --> G1["Boss Mode"]:::leaf
+    G --> G2["Operator Mode"]:::leaf
+    G --> G3["Specialist Mode"]:::leaf
+
+    classDef root fill:#f3f4f6,stroke:#94a3b8,color:#111827,stroke-width:2px;
+    classDef node fill:#0f172a,stroke:#38bdf8,color:#f8fafc,stroke-width:1.5px;
+    classDef leaf fill:#1e293b,stroke:#94a3b8,color:#f8fafc,stroke-width:1px;
 ```
 
 ## Why It Feels Different
