@@ -1,58 +1,105 @@
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![Skill Type](https://img.shields.io/badge/skill-SEO%20%2B%20GEO-blue)](./SKILL.md)
+[![Outputs](https://img.shields.io/badge/output-Boss%20%7C%20Operator%20%7C%20Specialist-orange)](./references/output-template.md)
+[![Language](https://img.shields.io/badge/language-EN%20%2F%20ZH-informational)](./references/output-template-zh-boss.md)
+
 # SEO GEO Audit Skill
 
-Unified website auditing for technical SEO, on-page quality, EEAT, GEO readiness, entity clarity, and authority signals.
+> One audit system for technical SEO, content quality, EEAT, GEO readiness, entity clarity, and authority signals.
 
-This project is designed for teams that want one audit system instead of fragmented checklists, scattered tools, and disconnected reports.
+This project helps answer a harder and more useful question than a standard site audit:
 
-It helps answer one core question:
+> Is this website actually ready to win in both search engines and AI-driven discovery?
 
-> Is this site truly ready to win in both search engines and AI-driven discovery?
+## Cover
 
-## Why This Project Exists
+```mermaid
+mindmap
+  root((SEO GEO Audit))
+    Technical SEO
+      Crawlability
+      Indexability
+      Performance
+      Security
+      Schema
+    On-Page SEO
+      Title and Meta
+      Headings
+      Intent Match
+      Internal Links
+      Media
+    GEO Readiness
+      Answer First
+      Extractability
+      Quotability
+      AI Signals
+    Trust and EEAT
+      Author Signals
+      Editorial Clarity
+      Evidence
+      Trust Pages
+    Entity and Authority
+      Brand Identity
+      Disambiguation
+      Third-Party Signals
+      Authority Gaps
+    Unified Output
+      Boss Mode
+      Operator Mode
+      Specialist Mode
+```
 
-Most audit workflows stop too early.
+## Why It Feels Different
 
-They usually cover one of these layers well:
+Most SEO audits are good at finding defects.
 
-- technical SEO
-- page optimization
-- content quality
-- trust and EEAT
-- AI visibility
+Most GEO reviews are good at discussing positioning.
 
-But growth decisions are rarely isolated to one layer.
+Most brand and EEAT reviews are good at surfacing trust gaps.
 
-A site can be:
+Very few workflows can do all three in one structure without collapsing into disconnected reports.
 
-- technically solid but not citable
-- content-rich but structurally weak
-- visible in search but weak in brand/entity recognition
-- healthy on-page but missing trust and authority signals
+This skill is designed to unify:
 
-This skill is built to evaluate the full stack of discoverability.
+- technical diagnosis
+- on-page evaluation
+- EEAT and trust review
+- AI visibility assessment
+- entity and authority analysis
+- one practical action roadmap
 
 ## What You Get
 
 - one audit workflow
 - one reporting structure
-- one priority framework
-- one roadmap that works for both SEO and GEO
+- one prioritization model
+- one language for leadership and execution teams
 
-It combines:
-
-- technical health
-- on-page quality
-- content clarity
-- trust and EEAT
-- GEO and AI visibility
-- entity and authority assessment
+Instead of producing separate checklists for developers, SEO teams, and founders, this skill turns them into a single decision system.
 
 ## Who This Is For
 
-- founders who want a decision-ready growth diagnosis
-- SEO operators who need a practical action plan
-- consultants who want a reusable delivery framework
-- growth teams optimizing for both rankings and AI visibility
+- founders who want a sharp growth diagnosis
+- SEO operators who need a usable roadmap
+- consultants who want a repeatable delivery format
+- teams optimizing for both rankings and AI visibility
+
+## Before vs After
+
+### Traditional Audit Experience
+
+- technical findings live in one tool
+- content review lives in another framework
+- GEO insights are mostly ad hoc
+- trust and entity review are often missing
+- leadership gets too much detail and not enough clarity
+
+### With This Skill
+
+- technical, content, GEO, and authority signals sit in one report
+- findings are split into `Observed`, `Assessment`, and `Not verified`
+- priorities are simplified into `P0`, `P1`, and `P2`
+- the same audit can be delivered in boss, operator, or specialist mode
 
 ## Core Audit Layers
 
@@ -269,6 +316,40 @@ P2
 - Extend the audit to templates, supporting pages, and off-page validation
 ```
 
+## 中文老板报告示例
+
+```text
+一句话结论
+网站基础 SEO 结构较强，但首页存在明显的性能、安全和品牌展示短板，会拖累自然流量放大、页面转化效率，以及在 AI 结果中的可信引用表现。
+
+总体判断
+- 技术健康度：中上
+- 内容与品牌可见度：中
+- AI / GEO 准备度：中
+
+关键问题
+- 首页过重：会影响页面加载、搜索表现和转化效率。
+- 安全信号不完整：会削弱站点基础信任和安全治理完整性。
+- 分享展示能力不足：会影响社媒、消息场景和搜索摘要中的点击率。
+- 品牌与 AI 可引用信号偏弱：不利于被搜索引擎和 AI 系统稳定识别与引用。
+
+优先级建议
+P0 立即处理
+- 优先压缩首页体积，减少 DOM、脚本和样式负担。
+- 补齐关键安全头，建立基础信任底座。
+
+P1 本月完成
+- 补齐分享标签与移动端体验问题。
+- 强化作者、品牌、组织和编辑责任等信号。
+
+P2 后续优化
+- 扩展到全站模板审计，并接入更多外部验证数据。
+
+管理层建议
+- 这不是单一 SEO 小修小补问题，而是技术基础、内容可信度和 AI 可见度需要同步升级。
+- 建议先聚焦首页和核心落地页，优先拿到增长效率提升。
+```
+
 ## Recommended Workflow
 
 ```mermaid
@@ -281,6 +362,22 @@ flowchart LR
     F --> G["Merge Findings"]
     G --> H["Prioritize P0 / P1 / P2"]
     H --> I["Deliver Boss / Operator / Specialist Report"]
+```
+
+## Quick CTA
+
+Use this project if you want to replace fragmented audit workflows with one structured deliverable that works across leadership, SEO, content, and growth teams.
+
+Start with:
+
+```text
+Run a full SEO and GEO audit for https://your-site.com
+```
+
+Or for a management-facing version:
+
+```text
+请用老板版输出这个网站的 SEO + GEO 审计结果：https://your-site.com
 ```
 
 ## Repo Structure
