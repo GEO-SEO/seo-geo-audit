@@ -167,6 +167,26 @@ So the crawl was:
 - optimized for a fast technical baseline
 - not using a fixed recursion depth
 
+## Recommended Presets
+
+Use these presets as practical defaults:
+
+| Preset | Best For | Suggested Command |
+|---|---|---|
+| `Fast check` | quick validation before sharing a site or page | `seomator audit https://example.com --format llm --no-cwv` |
+| `Homepage audit` | executive review of the main commercial page | `seomator audit https://example.com --format llm --no-cwv` |
+| `Template audit` | checking homepage, product, blog, docs, and other key templates | `seomator audit https://example.com --crawl -m 20 --format llm --no-cwv` |
+| `Full site audit` | broader structural review across a meaningful portion of the site | `seomator audit https://example.com --crawl -m 50 --format llm --no-cwv` |
+| `Deep investigation` | deeper diagnosis when the site has widespread issues or many templates | `seomator audit https://example.com --crawl -m 100 --format llm` |
+
+Suggested interpretation:
+
+- use `Fast check` when speed matters more than coverage
+- use `Homepage audit` when the goal is messaging, conversion, and first-impression quality
+- use `Template audit` when you want the fastest meaningful site-level diagnosis
+- use `Full site audit` when you are planning actual implementation work
+- use `Deep investigation` when you expect template sprawl, hidden debt, or indexing complexity
+
 ## Who This Is For
 
 - Shopify and DTC brands that want stronger AI-search visibility
