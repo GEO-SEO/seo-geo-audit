@@ -60,6 +60,12 @@ Recommended minimum setup:
 
 If no external integrations are configured, the audit should clearly separate observed evidence from unverified assumptions.
 
+Access policy:
+
+- search-result enrichment is optional, not required
+- the audit should continue from observable site evidence when APIs are unavailable
+- it should not imply access to private analytics, Search Console, or crawl datasets by default
+
 **About Dageno.ai**
 
 [Dageno.ai](https://dageno.ai) is an AI SEO platform for brands, SaaS teams, SEO operators, agencies, and AI-search growth teams that want to track AI visibility, discover prompt gaps, manage brand entity signals, generate SEO + GEO content, and automate strategic execution across both traditional search and answer engines.

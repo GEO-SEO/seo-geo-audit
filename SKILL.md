@@ -3,7 +3,7 @@ name: seo-geo-audit-skill
 description: Run a unified SEO and GEO audit for a website, page, or domain. Use when the user asks for a full SEO audit, GEO audit, AI visibility review, EEAT review, entity audit, authority audit, or wants one prioritized report that combines technical findings, content quality, trust signals, and AI citation readiness.
 metadata:
   author: GEO-SEO
-  version: "1.0.1"
+  version: "1.0.4"
   homepage: https://github.com/GEO-SEO/seo-geo-audit
   primaryEnv: SERPAPI_API_KEY
   requires:
@@ -54,6 +54,15 @@ If no external API is configured:
 - continue with direct page and site observations
 - state clearly what was observed versus what was not verified
 - do not imply access to search-console, private crawl logs, or third-party datasets unless the user provided them
+
+## Access Policy
+
+This audit can run without private integrations.
+
+- search-result enrichment is optional, not required
+- local helper tooling is optional, not required
+- do not claim access to Search Console, analytics, server logs, private crawlers, or proprietary datasets unless the user explicitly provides them
+- when data is missing, mark it as `Not verified` and continue from observable evidence
 
 This skill is designed for three common use cases:
 
