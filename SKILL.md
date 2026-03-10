@@ -1,11 +1,59 @@
 ---
 name: seo-geo-audit-skill
 description: Run a unified SEO and GEO audit for a website, page, or domain. Use when the user asks for a full SEO audit, GEO audit, AI visibility review, EEAT review, entity audit, authority audit, or wants one prioritized report that combines technical findings, content quality, trust signals, and AI citation readiness.
+metadata:
+  author: GEO-SEO
+  version: "1.0.1"
+  homepage: https://github.com/GEO-SEO/seo-geo-audit
+  primaryEnv: SERPAPI_API_KEY
+  requires:
+    env:
+      - SERPAPI_API_KEY
+    bins:
+      - python3
 ---
 
 # SEO GEO Audit Skill
 
 Use this skill to produce one audit that covers both search performance and AI visibility.
+
+## Overview
+
+Use this skill when you need one audit that combines technical SEO, content quality, trust, entity clarity, and AI visibility into a single prioritized output.
+
+## Best For
+
+- brands and SaaS teams that need one shared audit across SEO and GEO
+- founders or operators who want a management-ready summary, not a pile of raw issues
+- agencies that need a repeatable audit structure across multiple clients
+- SEO teams that want to connect technical debt, content quality, and AI visibility in one workflow
+
+## Start With
+
+```text
+Run a full SEO and GEO audit for https://example.com
+```
+
+```text
+Audit this homepage in boss mode: https://example.com
+```
+
+```text
+Give me an operator-style SEO GEO audit with P0, P1, and P2 actions
+```
+
+## External Access And Minimum Credentials
+
+This audit can run with direct page access only, but some environments may also use optional search or crawl integrations.
+
+- `SERPAPI_API_KEY`: optional for broader search visibility checks or search-result enrichment
+- `python3`: optional helper tooling in environments that pair this skill with local audit scripts
+
+If no external API is configured:
+
+- continue with direct page and site observations
+- state clearly what was observed versus what was not verified
+- do not imply access to search-console, private crawl logs, or third-party datasets unless the user provided them
 
 This skill is designed for three common use cases:
 

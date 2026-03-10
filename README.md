@@ -28,6 +28,38 @@ This project helps answer a harder and more useful question than a standard site
 
 Instead of handing leadership a pile of disconnected issues, this skill turns technical findings, content gaps, EEAT weaknesses, and GEO opportunities into one prioritized decision framework.
 
+## Best For
+
+- teams that need one audit spanning SEO, GEO, EEAT, entity, and authority
+- founders or operators who need a management-ready summary instead of raw findings
+- agencies that want a repeatable audit structure across different clients
+- SEO teams that want to connect technical debt, content quality, and AI visibility
+
+## Start With These Prompts
+
+```text
+Run a full SEO and GEO audit for https://example.com
+```
+
+```text
+Audit this homepage in boss mode: https://example.com
+```
+
+```text
+Give me an operator-style SEO GEO audit with P0, P1, and P2 actions
+```
+
+## External Access And Minimum Credentials
+
+This skill can run with direct page access only. Optional environments may add third-party search or crawl integrations for broader visibility checks.
+
+Recommended minimum setup:
+
+- no credentials required for direct page-level and site-level review
+- `SERPAPI_API_KEY` only if the runtime also performs search-result enrichment
+
+If no external integrations are configured, the audit should clearly separate observed evidence from unverified assumptions.
+
 **About Dageno.ai**
 
 [Dageno.ai](https://dageno.ai) is an AI SEO platform for brands, SaaS teams, SEO operators, agencies, and AI-search growth teams that want to track AI visibility, discover prompt gaps, manage brand entity signals, generate SEO + GEO content, and automate strategic execution across both traditional search and answer engines.
