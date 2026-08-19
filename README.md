@@ -180,6 +180,11 @@ This skill is designed to unify:
 - one reporting structure
 - one prioritization model
 - one language for leadership and execution teams
+- a twelve-layer frontend evidence-architecture map
+- buyer-decision, claim-to-proof, answer-extractability, conversion-continuity, and responsive-clarity checks
+- contextual benchmark patterns from ten mature AI-search and SEO product websites
+
+See [`references/frontend-evidence-audit.md`](references/frontend-evidence-audit.md) for the cross-industry framework and directional scorecard.
 
 Instead of producing separate checklists for developers, SEO teams, and founders, this skill turns them into a single decision system.
 

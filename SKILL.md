@@ -3,7 +3,7 @@ name: seo-geo-audit-skill
 description: Run a unified SEO and GEO audit for a website, page, or domain. Use when the user asks for a full SEO audit, GEO audit, AI visibility review, EEAT review, entity audit, authority audit, or wants one prioritized report that combines technical findings, content quality, trust signals, and AI citation readiness.
 metadata:
   author: GEO-SEO
-  version: "1.1.0"
+  version: "1.2.0"
   homepage: https://github.com/GEO-SEO/seo-geo-audit
   primaryEnv: SERPAPI_API_KEY
   requires:
@@ -147,12 +147,19 @@ This skill is designed for three common use cases:
    - off-site mention layer
    - platform-specific readiness layer
 
-5. Prioritize actions.
+5. Review frontend evidence architecture.
+   - Read `references/frontend-evidence-audit.md` for product, service, ecommerce, manufacturing, education, regulated, or local-service websites with a meaningful buyer journey.
+   - Map the homepage, product/category, audience/use case, workflow/integration, pricing/value, comparison, risk/trust, proof, research/data, education, support/docs, and conversion layers.
+   - Mark each layer `strong`, `weak`, `fragmented`, `missing`, or `not applicable`.
+   - Check category clarity, buyer-decision coverage, claim-to-proof linkage, answer extractability, internal discoverability, conversion continuity, localization, freshness, accessibility, and responsive behavior.
+   - Use competitor patterns as contextual evidence, not as mandatory templates.
+
+6. Prioritize actions.
    - `P0`: blockers, trust failures, indexing failures, major performance issues
    - `P1`: meaningful ranking and citation improvements
    - `P2`: optimization and scale work
 
-6. Present the result in the right audience mode.
+7. Present the result in the right audience mode.
    - `Boss mode`
    - `Operator mode`
    - `Specialist mode`
@@ -164,6 +171,7 @@ This skill is designed for three common use cases:
 - Keep technical facts and strategic recommendations distinct.
 - Do not invent data for backlinks, Search Console, server logs, or AI citation share.
 - Mark unavailable inputs as `Not verified`.
+- Do not recommend public pricing, free tools, comparison libraries, glossaries, programmatic pages, or llms.txt solely because a benchmark competitor uses them.
 
 ## Audience Modes
 
@@ -216,3 +224,4 @@ Every audit should include:
 - `references/scoring-framework.md`
 - `references/output-template.md`
 - `references/output-template-zh-boss.md`
+- `references/frontend-evidence-audit.md`

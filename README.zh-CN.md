@@ -52,6 +52,20 @@ Explore all repos / 查看全部项目: [github.com/dageno-agents](https://githu
 - Operator mode task report
 - Specialist mode detailed findings
 - technical/content/trust/GEO issue map
+- 十二层前端证据架构覆盖图
+- 品类清晰度、购买决策、证据链、可抽取答案、转化连续性与移动端体验评分
+- 对标 Promptwatch、Semrush、Profound、Peec AI、Ahrefs、SE Ranking、AirOps、Writesonic、Conductor、AthenaHQ 的可复用模式
+
+## 新增：前端证据架构审计
+
+除了传统技术 SEO、On-page、GEO、EEAT、站外提及与平台适配，Skill 现在还会检查：
+
+- 首页能否在五秒内讲清品类、对象和价值。
+- 产品、价格、比较、风险、案例、研究、文档与转化是否连成完整决策路径。
+- 重要 Claim 是否有公开证据，是否在页面、Schema、结构化文件和站外资料中保持一致。
+- 哪些竞品模式适合该客户，哪些只是竞品自己的业务选择，不应该机械复制。
+
+详见 [`references/frontend-evidence-audit.md`](references/frontend-evidence-audit.md)。
 
 ## 快速开始
 

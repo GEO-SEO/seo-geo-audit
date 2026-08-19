@@ -51,6 +51,25 @@ If the user explicitly wants a number, use directional conversion only:
 - Weak technical + weak strategic: fix the baseline first, then strengthen content and brand signals
 - Strong technical + strong strategic: move toward scale, testing, and monitoring
 
+## Frontend Evidence Architecture
+
+For websites with a meaningful buyer journey, read `frontend-evidence-audit.md` and add a directional frontend evidence score. This score measures whether the site can support buyer and AI decisions; it does not predict rankings.
+
+At minimum, report:
+
+- category/entity clarity,
+- buyer-decision coverage,
+- claim-to-proof linkage,
+- answer extractability,
+- architecture/discoverability,
+- conversion continuity,
+- technical/crawler delivery,
+- localization,
+- freshness,
+- responsive/accessibility clarity.
+
+Exclude `not applicable` layers rather than treating them as failures.
+
 For management summaries, translate this into plain language:
 
 - growth is being held back by technical friction
@@ -120,9 +139,10 @@ Rank issues in this order:
 2. security and trust blockers
 3. rendering and major performance issues
 4. metadata, schema, and structural issues
-5. EEAT, entity, and authority reinforcement
-6. off-site mention reinforcement and entity validation
-7. GEO formatting, platform fit, and citation optimization
+5. buyer-decision and claim-to-proof gaps
+6. EEAT, entity, and authority reinforcement
+7. off-site mention reinforcement and entity validation
+8. GEO formatting, platform fit, and citation optimization
 
 ## Missing Data Rules
 
